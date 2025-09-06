@@ -9,7 +9,7 @@ import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import ProductDesign from './pages/ProductDesign';
 import AdminPanel from './pages/AdminPanel';
-import Loading from './pages/Loading';
+import Loading from './pages/loading';
 
 function App() {
   const location = useLocation();
