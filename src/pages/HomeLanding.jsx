@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const featuredItems = [ { id: 1, title: "Floral Kurta", image: "https://www.vintagedrip.in/cdn/shop/files/faiz4.jpg?v=1720866902" }, { id: 3, title: "Boho Dress", image: "https://www.labelreyya.com/cdn/shop/files/CopyofRVP_1701.jpg?v=1714481234" }, { id: 4, title: "Ethnic Top", image: "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/5/7508ef72903-SS-1246-03_1.jpg?tr=w-512" }, { id: 5, title: "Patchwork Shirt", image: "https://refash.in/cdn/shop/files/pwn8FJVcy0.jpg?v=1723466415&width=720" }, { id: 6, title: "Summer Kurti", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUWV9JtpZPhNaF06JTr4P__x6MogOo9qsOA&s" }, ];
+const featuredItems = [ { id: 1, title: "Jacket", image: "https://www.vintagedrip.in/cdn/shop/files/faiz4.jpg?v=1720866902" }, { id: 3, title: "Boho Dress", image: "https://www.labelreyya.com/cdn/shop/files/CopyofRVP_1701.jpg?v=1714481234" }, { id: 4, title: "Ethnic Top", image: "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/5/7508ef72903-SS-1246-03_1.jpg?tr=w-512" }, { id: 5, title: "Patchwork Shirt", image: "https://refash.in/cdn/shop/files/pwn8FJVcy0.jpg?v=1723466415&width=720" }, { id: 6, title: "Summer Kurti", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUWV9JtpZPhNaF06JTr4P__x6MogOo9qsOA&s" }, ];
 
 const HomeLanding = () => { return ( 
 <div className="bg-[#FDF4F2] min-h-screen font-sans text-[#2E2E2E]"> 
