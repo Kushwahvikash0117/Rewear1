@@ -10,6 +10,7 @@ import SignupPage from './pages/SignupPage';
 import ProductDesign from './pages/ProductDesign';
 import AdminPanel from './pages/AdminPanel';
 import Loading from './pages/loading';
+import Donation from './pages/Donation';
 
 function App() {
   const location = useLocation();
@@ -28,6 +29,7 @@ function App() {
         <Route path="/product-design" element={<ProductDesign />} />
         <Route path="/admin-panel" element={<AdminPanel />} />
         <Route path="/loading" element={<Loading />} />
+        <Route path="/donate" element={<Donation />} />
       </Routes>
     </>
   );
